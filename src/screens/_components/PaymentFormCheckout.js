@@ -1,5 +1,6 @@
 import Input from "components/Input";
 
+
 const PaymentFormCheckout = ({ register, setNextStage }) => {
   return (
     <div class="d-flex flex-wrap w-100">
