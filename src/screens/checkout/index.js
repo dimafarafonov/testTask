@@ -1,5 +1,8 @@
+import { useLocation } from "react-router-dom";
+
 const Checkout = () => {
-  return <>checkoout</>;
+  const { state } = useLocation();
+  return <>{JSON.stringify(state, null, 2)}</>;
 };
 
 export default Checkout;
